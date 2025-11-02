@@ -1,0 +1,17 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+.venv/
+
+# Ignore system and IDE files
+.DS_Store
+.vscode/
+*.log
+
+# If .pkl files are large, ignore them (optional)
+# *.pkl
+README.md
