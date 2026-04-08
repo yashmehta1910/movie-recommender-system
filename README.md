@@ -20,7 +20,7 @@ It suggests similar movies based on your selection using **Cosine Similarity** a
 - **Python**
 - **Streamlit**
 - **Pandas / Scikit-learn**
-- **Pickle**
+- **Pickl**
 - **Requests (TMDB API)**
 
 ---
