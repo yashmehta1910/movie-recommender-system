@@ -21,7 +21,7 @@ if "auto_refresh" not in st.session_state:
 @st.cache_data(ttl=3600, show_spinner=False)
 def fetch_movie_details(movie_id, fast_mode=True):
     try:
-        api_key = "8265bd1679663a7ea12ac168da84d2e8"  # Replace with personal TMDB key
+        api_key = "Your_Api_Key"  # Replace with personal TMDB key
         url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
         response = requests.get(url, timeout=5)
 
