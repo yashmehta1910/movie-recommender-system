@@ -1,5 +1,5 @@
 
-# 🎬 Movie Recommender System
+# Movie Recommender System
 
 A smart, interactive **Movie Recommendation System** built using **Python, Streamlit, and Machine Learning**.  
 It suggests similar movies based on your selection using **Cosine Similarity** and **TMDB API** for posters and details.
