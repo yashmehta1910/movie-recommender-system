@@ -1,17 +1,64 @@
-# Ignore Python cache and compiled files
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore environment files
+# --- Secrets ---
 .env
-.venv/
+.env.*
+!.env.example
 
-# Ignore system and IDE files
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter / IPython (if used for building movie_list.pkl / similarity.pkl) ---
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# --- OS junk ---
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Editor / IDE ---
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
 *.log
 
-# If .pkl files are large, ignore them (optional)
-# *.pkl
-README.md
+# --- Large data / model artifacts you may want to track with Git LFS instead ---
+# Uncomment if you don't want to commit these directly:
+# movie_list.pkl
+# similarity.pkl 
+# --- Raw dataset / notebooks used to build the .pkl files --- 
+*.csv 
+*.ipynb 
