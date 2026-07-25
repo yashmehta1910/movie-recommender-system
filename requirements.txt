@@ -1,3 +1,7 @@
-streamlit
+streamlit>=1.41
+pandas
 requests
-pickle-mixin
+python-dotenv
+google-genai
+streamlit-autorefresh
+aiohttp
